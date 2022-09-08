@@ -1,0 +1,12 @@
+dns:
+  domain: us-cru-nonprod.azure.lnrsg.io
+  primary_prefix: eastus2
+  resource_group_name: app-dns-prod-eastus2
+  secondary_prefix: eastus
+  cname_records:
+    "cru-staging" :
+        record: "cru-staging.eastus.us-cru-nonprod.azure.lnrsg.io"
+    "cru-qa1" :
+        record: "cru-qa1.eastus.us-cru-nonprod.azure.lnrsg.io"
+    "cru-qa2" :
+        record: "cru-qa2.eastus.us-cru-nonprod.azure.lnrsg.io"
